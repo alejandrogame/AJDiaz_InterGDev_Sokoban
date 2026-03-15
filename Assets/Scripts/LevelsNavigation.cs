@@ -3,8 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelsNavigation : MonoBehaviour
 {
-
-    [SerializeField] private float scene_change_timer = 5f;
+    
     public void LoadNextLevel()
     {
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
@@ -20,12 +19,12 @@ public class LevelsNavigation : MonoBehaviour
 
     void Update()
     {
-        scene_change_timer -= Time.deltaTime;
-
-        if (scene_change_timer <= 0)
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
-            LoadNextLevel();
-            scene_change_timer = 5f;
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                LoadNextLevel();
+            }
         }
     }
 }

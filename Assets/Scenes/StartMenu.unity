@@ -395,10 +395,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 1, g: 0.9647059, b: 0.4862745, a: 1}
+    m_PressedColor: {r: 1, g: 0.9647059, b: 0.4862745, a: 1}
+    m_SelectedColor: {r: 1, g: 0.9647059, b: 0.4862745, a: 1}
+    m_DisabledColor: {r: 0.6117647, g: 0.6117647, b: 0.6117647, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -779,19 +779,19 @@ MonoBehaviour:
   m_Navigation:
     m_Mode: 3
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 769095249}
+    m_SelectOnDown: {fileID: 769095249}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 1, g: 0.9647059, b: 0.4862745, a: 1}
+    m_PressedColor: {r: 1, g: 0.9647059, b: 0.4862745, a: 1}
+    m_SelectedColor: {r: 1, g: 0.9647059, b: 0.4862745, a: 1}
+    m_DisabledColor: {r: 0.6117647, g: 0.6117647, b: 0.6117647, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
+    m_FadeDuration: 0.01
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -869,7 +869,7 @@ GameObject:
   - component: {fileID: 1308442819}
   - component: {fileID: 1308442818}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -887,7 +887,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f9e40e8adc46842ade923bdd068fb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene_change_timer: 5
 --- !u!4 &1308442819
 Transform:
   m_ObjectHideFlags: 0
@@ -1171,6 +1170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e192dca80532f447b9988e6c8ac6ed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  first_button: {fileID: 1284535442}
 --- !u!1 &2039238829
 GameObject:
   m_ObjectHideFlags: 0
