@@ -3,6 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelsNavigation : MonoBehaviour
 {
+
+    [SerializeField] public Block[] blocks; // list of all block objects
+    [SerializeField] public Goal[] goals; // list of all corresponding goal objects
+    
+    public void Check_Goals()
+    {
+        Debug.Log("gm checking goals");
+    }
     
     public void LoadNextLevel()
     {
