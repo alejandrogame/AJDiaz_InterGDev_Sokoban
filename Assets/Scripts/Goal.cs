@@ -26,9 +26,6 @@ public class Goal : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Check_Goal();
-        }
+        Check_Goal();
     }
 }

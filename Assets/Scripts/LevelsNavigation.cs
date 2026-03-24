@@ -4,12 +4,22 @@ using UnityEngine.SceneManagement;
 public class LevelsNavigation : MonoBehaviour
 {
 
-    [SerializeField] public Block[] blocks; // list of all block objects
-    [SerializeField] public Goal[] goals; // list of all corresponding goal objects
+    [SerializeField] public Goal[] goals; // list of all goal objects
     
     public void Check_Goals()
     {
-        Debug.Log("gm checking goals");
+        bool ready_next = true;
+        foreach (Goal goal in goals) {
+            if (!goal.goal_achieved)
+            {
+                ready_next = false;
+                break;
+            }
+        }
+        if (ready_next)
+        {
+            LoadNextLevel();
+        }
     }
     
     public void LoadNextLevel()
