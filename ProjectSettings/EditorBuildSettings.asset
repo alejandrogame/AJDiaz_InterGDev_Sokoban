@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: 929d06a1b08e71a4b92ee589a1144163
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/Level0_Tutorial.unity
+    guid: cb8ea21f430637b48a83a7e8a34ff981
+  - enabled: 1
+    path: Assets/Scenes/Level1_Lineup.unity
     guid: 9a5eb2cf7ae8e724490972db0eb427a3
   - enabled: 1
     path: Assets/Scenes/Level2_Cockatoo.unity
     guid: 3dfee65fb57706f468da0bebe11c9382
-  - enabled: 1
-    path: Assets/Scenes/Level3.unity
-    guid: 5341566414ddcd242bb131ea420ece8b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

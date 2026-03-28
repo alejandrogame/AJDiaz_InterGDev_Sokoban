@@ -44,6 +44,10 @@ public class PauseMenuManager : MonoBehaviour
                 Pause();
             }
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Reset();
+        }
     }
 
     private void Pause()
