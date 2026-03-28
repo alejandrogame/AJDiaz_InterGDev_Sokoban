@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - block
+  - player_goal
   layers:
   - Default
   - TransparentFX
