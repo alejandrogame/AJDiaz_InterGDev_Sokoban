@@ -5,6 +5,7 @@ public class LevelsNavigation : MonoBehaviour
 {
 
     [SerializeField] public Goal[] goals; // list of all goal objects
+    [SerializeField] public RestartPromptManager rpm_scr;
     
     public void Check_Goals()
     {
@@ -29,9 +30,9 @@ public class LevelsNavigation : MonoBehaviour
         {
             SceneManager.LoadScene(nextSceneIndex);
         }
-        else
+        else if (rpm_scr != null)
         {
-            SceneManager.LoadScene(0);
+            rpm_scr.Prompt();
         }
     }
 

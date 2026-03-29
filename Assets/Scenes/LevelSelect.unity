@@ -524,12 +524,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 1023413228}
+    m_SelectOnDown: {fileID: 1284535444}
     m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnRight: {fileID: 1284535444}
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -556,7 +556,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2005449043}
-        m_TargetAssemblyTypeName: StartMenuNavigation, Assembly-CSharp
+        m_TargetAssemblyTypeName: SelectMenuNavigation, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -784,11 +784,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 769095249}
-    m_SelectOnDown: {fileID: 769095249}
-    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnUp: {fileID: 1284535444}
+    m_SelectOnDown: {fileID: 1023413228}
+    m_SelectOnLeft: {fileID: 769095249}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
@@ -816,13 +816,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2005449043}
-        m_TargetAssemblyTypeName: StartMenuNavigation, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SelectMenuNavigation, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -917,11 +917,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 769095249}
+    m_SelectOnUp: {fileID: 1016578051}
     m_SelectOnDown: {fileID: 769095249}
-    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnLeft: {fileID: 769095249}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
@@ -949,13 +949,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2005449043}
-        m_TargetAssemblyTypeName: StartMenuNavigation, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SelectMenuNavigation, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1187,11 +1187,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 769095249}
-    m_SelectOnDown: {fileID: 769095249}
-    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnDown: {fileID: 1016578051}
+    m_SelectOnLeft: {fileID: 769095249}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
@@ -1219,9 +1219,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2005449043}
-        m_TargetAssemblyTypeName: StartMenuNavigation, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SelectMenuNavigation, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1718,9 +1718,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2005449038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e192dca80532f447b9988e6c8ac6ed6, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f7e9f3b74793ba4ca2abc95cc421c6a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::SelectMenuNavigation
   first_button: {fileID: 1284535442}
 --- !u!1 &2039238829
 GameObject:
