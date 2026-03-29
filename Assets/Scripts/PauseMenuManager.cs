@@ -55,15 +55,21 @@ public class PauseMenuManager : MonoBehaviour
         pause_menu_UI.SetActive(true);
         Time.timeScale = 0f;
         is_paused = true;
+        if (EventSystem.current != null)
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(first_button);
+            previous_selected = first_button;
+        }
     }
-
+    /*
     private void OnEnable()
     {
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(first_button);
         previous_selected = first_button;
     }
-
+    */
 
     #region Button_Functions
 

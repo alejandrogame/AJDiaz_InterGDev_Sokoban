@@ -2312,7 +2312,7 @@ MonoBehaviour:
     m_SelectedColor: {r: 1, g: 0.96470594, b: 0.48627454, a: 1}
     m_DisabledColor: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.01
+    m_FadeDuration: 0
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -7283,7 +7283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1574302035
 RectTransform:
   m_ObjectHideFlags: 0
