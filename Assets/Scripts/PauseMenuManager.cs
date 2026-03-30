@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,11 @@ public class PauseMenuManager : MonoBehaviour
     #region Variables
 
     [SerializeField] private GameObject pause_menu_UI;
+
+    [Header("UI Sprites")]
+    public Image img_button;
+    public Sprite spr_play;
+    public Sprite spr_pause;
 
     private bool is_paused = false;
 
@@ -50,11 +56,24 @@ public class PauseMenuManager : MonoBehaviour
         }
     }
 
-    private void Pause()
+    public void Press_Pause_Button()
+    {
+        if (is_paused)
+        {
+            Resume();
+        }
+        else
+        {
+            Pause();
+        }
+    }
+
+    public void Pause()
     {
         pause_menu_UI.SetActive(true);
         Time.timeScale = 0f;
         is_paused = true;
+        img_button.sprite = spr_play;
         if (EventSystem.current != null)
         {
             EventSystem.current.SetSelectedGameObject(null);
@@ -62,14 +81,6 @@ public class PauseMenuManager : MonoBehaviour
             previous_selected = first_button;
         }
     }
-    /*
-    private void OnEnable()
-    {
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(first_button);
-        previous_selected = first_button;
-    }
-    */
 
     #region Button_Functions
 
@@ -78,6 +89,7 @@ public class PauseMenuManager : MonoBehaviour
         pause_menu_UI.SetActive(false);
         Time.timeScale = 1f;
         is_paused = false;
+        img_button.sprite = spr_pause;
     }
 
     public void Reset()

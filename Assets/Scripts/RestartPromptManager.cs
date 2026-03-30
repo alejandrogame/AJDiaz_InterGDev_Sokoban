@@ -49,14 +49,6 @@ public class RestartPromptManager : MonoBehaviour
             previous_selected = first_button;
         }
     }
-    /*
-    private void OnEnable()
-    {
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(first_button);
-        previous_selected = first_button;
-    }
-    */
 
     #region Button_Functions
 
