@@ -26,7 +26,8 @@ public class Moral_Support : MonoBehaviour
 
         if (Vector2.Distance(this_pos_xz, visitor_pos_xz) < wiggle_room)
         {
-            if (!is_displaying_message && texts.Count > 0)
+            bool space_pressed = Input.GetKeyDown(KeyCode.Space);
+            if (space_pressed && !is_displaying_message && texts.Count > 0)
             {
                 text.text = GetExpRandText();
                 panel.SetActive(true);
