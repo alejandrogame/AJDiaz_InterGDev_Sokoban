@@ -3120,25 +3120,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 718681479}
         m_TargetAssemblyTypeName: PauseMenuManager, Assembly-CSharp
         m_MethodName: Press_Pause_Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PauseMenuManager, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3779,9 +3767,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pause_menu_UI: {fileID: 1322234129}
-  img_button: {fileID: 0}
-  spr_play: {fileID: 0}
-  spr_pause: {fileID: 0}
+  img_button: {fileID: 603966495}
+  spr_play: {fileID: -1664401867, guid: 3fd7d79126a145b4d9a9955778ea97bc, type: 3}
+  spr_pause: {fileID: 1876069893, guid: 3fd7d79126a145b4d9a9955778ea97bc, type: 3}
   first_button: {fileID: 1743367476}
 --- !u!114 &718681480
 MonoBehaviour:
