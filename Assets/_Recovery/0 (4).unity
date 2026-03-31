@@ -1327,7 +1327,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: 'WATAGATAPITUSBERRY what
+
+    WATAGATAPITUSBERRY what
+
+    WATAGATAPITUSBERRY
+    qlq significa WATAGATAPITUSBERRY'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3521,25 +3526,27 @@ MonoBehaviour:
   panel: {fileID: 764363882}
   text: {fileID: 449806858}
   wiggle_room: 0.08
-  exponential_power: 1.97
+  exponential_power: 1.88
   texts:
-  - 0
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  - 12
-  - 13
-  - 14
-  - 15
-  - 16
+  - 0 qlq manito
+  - 1 wsg
+  - 2 we eat breakfast in the mornings
+  - 3 son, yk why u the greatest alive
+  - 4 why dad
+  - 5 bc u came outta my balllllz nigaaaaaa
+  - 6 fuck rap bustin like an addict with a semi-automatic who done had it and he
+    ready for anybody to bark back
+  - 7 hold up catch a vibe, ain't know way we leaving anybody alive
+  - 8 double suicide no fuck that
+  - 9 bobby boy he feelin this he killin this
+  - 10 im coming  for his man and his lady and even ya baby
+  - 11 im feelin like a chikachikachikachikachikachika slim shady
+  - 12 there's nowhere to hide, we call ts genocide, hit em with that
+  - 13 doo doo doo and they die
+  - 14 we don't even crucify, we call ts genocide
+  - 15 i got bitches! i got hoes! i got red designer clothes!
+  - 16 no we ain't fucking with that
+  - 17 yea there's time and place
 --- !u!1001 &1706053610
 PrefabInstance:
   m_ObjectHideFlags: 0
