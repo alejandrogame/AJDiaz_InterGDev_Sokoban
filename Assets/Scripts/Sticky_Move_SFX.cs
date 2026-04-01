@@ -3,7 +3,8 @@ using UnityEngine;
 using UnityEngine.Audio;
 
 [RequireComponent(typeof(AudioSource))]
-public class Move_SFX : MonoBehaviour
+
+public class Sticky_Move_SFX : MonoBehaviour
 {
 
     [Header("Audio Settings")]

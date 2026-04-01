@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 4080312293609642034}
   - component: {fileID: 6009578678526313900}
   - component: {fileID: 4568749087511540855}
-  - component: {fileID: -1522849564520184738}
+  - component: {fileID: -6953985621460418921}
   - component: {fileID: -8743987330405910288}
   m_Layer: 0
   m_Name: Slide_Hatchback
@@ -522,7 +522,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 0}
   moveChange: {x: 0, y: 0}
   state: 0
---- !u!114 &-1522849564520184738
+--- !u!114 &-6953985621460418921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -531,14 +531,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7769690492283750692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7eddd4e885ec4ab785a2645fbf19f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b3889e23219eec4fa4aaaf1cbe54759, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Move_SFX
+  m_EditorClassIdentifier: '::'
   audio_source: {fileID: 0}
   sfx_move: {fileID: 8300000, guid: bb76c5d6612b66f42bdca6571ec76b92, type: 3}
   start_time: 0.1
-  end_time: 1
-  distance: 1
 --- !u!82 &-8743987330405910288
 AudioSource:
   m_ObjectHideFlags: 0

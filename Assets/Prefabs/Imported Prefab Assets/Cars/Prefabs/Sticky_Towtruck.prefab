@@ -372,8 +372,8 @@ GameObject:
   - component: {fileID: 598507913756302931}
   - component: {fileID: 4179587830746508738}
   - component: {fileID: 4461017365706862963}
-  - component: {fileID: -8421735287350167052}
   - component: {fileID: -8993397232279040797}
+  - component: {fileID: 4223204049658366652}
   m_Layer: 0
   m_Name: Sticky_Towtruck
   m_TagString: block
@@ -526,23 +526,6 @@ MonoBehaviour:
   moveChange: {x: 0, y: 0}
   state: 0
   leadBlock: {fileID: 0}
---- !u!114 &-8421735287350167052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8924721617483827851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7eddd4e885ec4ab785a2645fbf19f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Move_SFX
-  audio_source: {fileID: 0}
-  sfx_move: {fileID: 8300000, guid: bb76c5d6612b66f42bdca6571ec76b92, type: 3}
-  start_time: 0.1
-  end_time: 1
-  distance: 1
 --- !u!82 &-8993397232279040797
 AudioSource:
   m_ObjectHideFlags: 0
@@ -640,3 +623,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4223204049658366652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8924721617483827851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01512f2e0e6f78246802815792ab5061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  audio_source: {fileID: 0}
+  sfx_move: {fileID: 8300000, guid: bb76c5d6612b66f42bdca6571ec76b92, type: 3}
+  start_time: 0.1
+  end_time: 1
+  distance: 1

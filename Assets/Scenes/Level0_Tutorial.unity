@@ -751,8 +751,9 @@ MonoBehaviour:
   audio_source: {fileID: 0}
   sfx_move: {fileID: 0}
   start_time: 0
-  timer: 0.25
+  end_time: 1
   distance: 0.05
+  previous_position: {x: 0, y: 0, z: 0}
 --- !u!114 &340087021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,10 +2250,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5046146926837599881, guid: 350735ef3b951a54ba6ec49c663c667e, type: 3}
-      propertyPath: sfx_move
-      value: 
-      objectReference: {fileID: 8300000, guid: bb76c5d6612b66f42bdca6571ec76b92, type: 3}
     - target: {fileID: 9181701585240893179, guid: 350735ef3b951a54ba6ec49c663c667e, type: 3}
       propertyPath: m_Name
       value: Smooth_Van
@@ -3730,7 +3727,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ee35f0cb3efcff44d8c32cf758a87845, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.38
   m_Pitch: 1
   Loop: 1

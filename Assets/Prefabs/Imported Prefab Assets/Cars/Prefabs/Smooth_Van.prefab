@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 4543159005243683516}
   - component: {fileID: 1269397171700148476}
   - component: {fileID: 5996573016631461545}
-  - component: {fileID: 5046146926837599881}
+  - component: {fileID: 4757917817656829512}
   - component: {fileID: 8165259637149872146}
   m_Layer: 0
   m_Name: Smooth_Van
@@ -523,7 +523,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 0}
   moveChange: {x: 0, y: 0}
   state: 0
---- !u!114 &5046146926837599881
+--- !u!114 &4757917817656829512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -532,14 +532,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 9181701585240893179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7eddd4e885ec4ab785a2645fbf19f, type: 3}
+  m_Script: {fileID: 11500000, guid: d54bece9be9017a43b963318d668f4bb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Move_SFX
-  audio_source: {fileID: 8165259637149872146}
+  m_EditorClassIdentifier: '::'
+  audio_source: {fileID: 0}
   sfx_move: {fileID: 8300000, guid: bb76c5d6612b66f42bdca6571ec76b92, type: 3}
   start_time: 0.1
-  end_time: 1
-  distance: 1
+  timer: 0.001
+  distance: 0.05
 --- !u!82 &8165259637149872146
 AudioSource:
   m_ObjectHideFlags: 0
