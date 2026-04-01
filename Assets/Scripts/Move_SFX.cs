@@ -5,22 +5,20 @@ using UnityEngine.Audio;
 [RequireComponent(typeof(AudioSource))]
 public class Move_SFX : MonoBehaviour
 {
-    
+
     [Header("Audio Settings")]
     [SerializeField] public AudioSource audio_source;
     [SerializeField] public AudioClip sfx_move;
-    [SerializeField] public float start_time;
+    [SerializeField] public float start_time = 0.1f;
+    [SerializeField] public float end_time = 1f;
 
-    [Header("Movement Check Values")]
-    [SerializeField] public float timer = 0.25f;
-    [SerializeField] public float distance = 0.05f; 
+    [SerializeField] public float distance = 1f;
 
-    private Vector3 lastPosition;
+    private Vector3 previous_position;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        lastPosition = transform.position;
+        previous_position = transform.position;
 
         if (audio_source == null)
         {
@@ -31,42 +29,46 @@ public class Move_SFX : MonoBehaviour
         {
             audio_source.clip = sfx_move;
         }
-
-        StartCoroutine(CheckForMovement());
     }
-
-    private IEnumerator CheckForMovement()
+    void Update()
     {
-        while (true)
+        float distance_moved = Vector3.Distance(transform.position, previous_position);
+
+        // If obj is moving (at all)
+        if (distance_moved > 0.001f)
         {
-            yield return new WaitForSeconds(timer);
-
-            float distance_moved = Vector3.Distance(transform.position, lastPosition);
-
-            if (distance_moved > distance)
+            if (!audio_source.isPlaying)
             {
-                if (!audio_source.isPlaying)
-                {
-                    PlaySFX();
-                }
+                PlaySFX();
             }
-            else
+            if (audio_source.time >= end_time)
             {
-                if (audio_source.isPlaying)
-                {
-                    audio_source.Stop();
-                }
+                audio_source.Stop();
             }
-            lastPosition = transform.position;
+        }
+        else
+        {
+            if (audio_source.isPlaying)
+            {
+                audio_source.Stop();
+            }
+        }
+
+        // If obj moved more than a certain distance
+        if (distance_moved >= distance)
+        {
+            previous_position = transform.position;
+            audio_source.Stop();
         }
     }
 
     private void PlaySFX()
     {
-        if (audio_source != null && sfx_move != null && !audio_source.isPlaying)
+        if (audio_source != null && audio_source.clip != null)
         {
             audio_source.time = start_time;
             audio_source.Play();
         }
     }
+
 }

@@ -538,8 +538,8 @@ MonoBehaviour:
   audio_source: {fileID: 8165259637149872146}
   sfx_move: {fileID: 8300000, guid: bb76c5d6612b66f42bdca6571ec76b92, type: 3}
   start_time: 0.1
-  timer: 0
-  distance: 0
+  end_time: 1
+  distance: 1
 --- !u!82 &8165259637149872146
 AudioSource:
   m_ObjectHideFlags: 0
