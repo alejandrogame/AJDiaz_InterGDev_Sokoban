@@ -3921,29 +3921,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c22685b415d006c448daa1f0ed496bfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Moral_Support
-  visitor: {fileID: 4893310807112494451}
+  visitors:
+  - {fileID: 1007475030}
+  - {fileID: 329654198}
+  - {fileID: 673230985}
+  - {fileID: 1439384395}
   panel: {fileID: 764363882}
   text: {fileID: 449806858}
-  wiggle_room: 0.08
+  wiggle_room: 0.001
   exponential_power: 1.97
   texts:
-  - 0
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  - 12
-  - 13
-  - 14
-  - 15
-  - 16
+  - Good luck!
+  - Hey there, friend! Don't give up!
+  - Patience is a virtue.
+  - That tow truck is so interesting.
+  - Is there a narrative to this game?
+  - HELPPPP!!! No I'm just playing around, I don't need any help.
+  - Today has been quite a day.
+  - Who am I? I'm the dark blue tile. I am here for moral support. GO TEAM GO!!
+  - How we doing. You doing alright?
+  - Gimme a P. P! Gimme a L. L! Gimme an... nah I'm too tired for this.
+  - I unfortunately can't help you very much :((
+  - Have you tried the tutorial yet? Highly recommend.
+  - Time is of the essence. Chop chop!!
+  - Each of the cars have such unique behaviors! Absolutely astounding.
+  - Who are you anyways, a police car?
+  - It looks like you have to move the cars. Why you gotta move the cars? What did
+    they do to you?
+  - Everybody seems to have a home except for that big, sturdy van. Maybe they already
+    home.
+  activation_time: 1
 --- !u!1001 &1706053610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8745,11 +8752,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f51cbbce7068b483cae8c3fca45c8e23, type: 3}
---- !u!1 &4893310807112494451 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3301981105375451235, guid: f51cbbce7068b483cae8c3fca45c8e23, type: 3}
-  m_PrefabInstance: {fileID: 4893310807112494450}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &4893310807112494452 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4400037649519715519, guid: f51cbbce7068b483cae8c3fca45c8e23, type: 3}
