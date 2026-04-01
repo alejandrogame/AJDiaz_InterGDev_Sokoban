@@ -56,7 +56,7 @@ public class Sticky_Move_SFX : MonoBehaviour
         }
 
         // If obj moved more than a certain distance
-        if (distance_moved >= distance)
+        if (distance_moved >= distance - 0.05f) // 0.05f acts as a buffer
         {
             previous_position = transform.position;
             audio_source.Stop();
@@ -69,6 +69,7 @@ public class Sticky_Move_SFX : MonoBehaviour
         {
             audio_source.time = start_time;
             audio_source.Play();
+            Debug.Log("sticky sfx play");
         }
     }
 

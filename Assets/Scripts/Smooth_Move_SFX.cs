@@ -8,14 +8,13 @@ public class Smooth_Move_SFX : MonoBehaviour
     [SerializeField] public AudioClip sfx_move;
     [SerializeField] public float start_time = 0.1f;
 
-    [Header("Movement Settings")]
-    [SerializeField] public float movementThreshold = 0.01f; // Super small to detect stops instantly
+    [SerializeField] public float distance = 0.01f;
 
-    private Vector3 lastPosition;
+    private Vector3 last_position;
 
     void Start()
     {
-        lastPosition = transform.position;
+        last_position = transform.position;
 
         if (audio_source == null)
         {
@@ -32,19 +31,17 @@ public class Smooth_Move_SFX : MonoBehaviour
 
     void Update()
     {
-        // 1. Calculate how far it moved since the EXACT LAST FRAME
-        float distanceMoved = Vector3.Distance(transform.position, lastPosition);
+        float distanceMoved = Vector3.Distance(transform.position, last_position);
 
-        // 2. IF MOVED: Play sound if it's not already playing
-        if (distanceMoved > movementThreshold)
+        if (distanceMoved > distance)
         {
             if (!audio_source.isPlaying)
             {
                 audio_source.time = start_time;
                 audio_source.Play();
+                Debug.Log("smooth sfx play");
             }
         }
-        // 3. IF STOPPED: Kill the sound on a dime!
         else
         {
             if (audio_source.isPlaying)
@@ -53,7 +50,6 @@ public class Smooth_Move_SFX : MonoBehaviour
             }
         }
 
-        // Always update the position at the end of the frame
-        lastPosition = transform.position;
+        last_position = transform.position;
     }
 }

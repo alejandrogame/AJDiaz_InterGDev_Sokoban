@@ -38,6 +38,7 @@ public class Slide_Move_SFX : MonoBehaviour
             {
                 audio_source.time = start_time;
                 audio_source.Play();
+                Debug.Log("slide sfx play");
             }
         }
         else
