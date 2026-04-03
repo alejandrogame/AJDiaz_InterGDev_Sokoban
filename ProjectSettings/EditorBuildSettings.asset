@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2_Cockatoo.unity
     guid: 3dfee65fb57706f468da0bebe11c9382
+  - enabled: 1
+    path: Assets/Scenes/Level3_Final.unity
+    guid: f56dea35be8f0e84d9679ab12eb3d2e5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
