@@ -2351,7 +2351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 777125360072012311, guid: f8b18f2d86a08a841943953f45bc976a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 777125360072012311, guid: f8b18f2d86a08a841943953f45bc976a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4569,27 +4569,18 @@ MonoBehaviour:
   panel: {fileID: 764363882}
   text: {fileID: 449806858}
   wiggle_room: 0.001
-  exponential_power: 1.97
+  exponential_power: 1.6
   texts:
-  - Good luck!
-  - Hey there, friend! Don't give up!
-  - Patience is a virtue.
-  - That tow truck is so interesting.
-  - Is there a narrative to this game?
-  - HELPPPP!!! No I'm just playing around, I don't need any help.
-  - Today has been quite a day.
-  - Who am I? I'm the dark blue tile. I am here for moral support. GO TEAM GO!!
-  - How we doing. You doing alright?
-  - Gimme a P. P! Gimme a L. L! Gimme an... nah I'm too tired for this.
-  - I unfortunately can't help you very much :((
-  - Are you ready for the challenges ahead?
-  - Time is of the essence. Chop chop!!
-  - Each of the cars have such unique behaviors! Absolutely astounding.
-  - Who are you anyways, a police car?
-  - It looks like you have to move the cars. Why you gotta move the cars? What did
-    they do to you?
-  - Everybody seems to have a home except for that big, sturdy van. Maybe they already
-    home.
+  - What is this?
+  - This looks strangely familiar!
+  - There is one mechanic that I haven't taught you yet.
+  - Do you want a hint? Maybe I'll give you one!
+  - This big truck has a nice view of this whole puzzle!
+  - HINT! You should play around with this system more.
+  - HINT! See how the car and the towtruck interact with each other.
+  - HINT! I find this mystery mechanic the most unintuitive.
+  - HINT! Get that van out of the way so you can experiment.
+  - HINT! You need to find (only) one new mechanic.
   activation_time: 1
 --- !u!1001 &1706053610
 PrefabInstance:
@@ -4804,7 +4795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Level 4: THE FINAL'
+  m_text: 'Level 4: FINAL'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -6497,7 +6497,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Level 1: THE SCHOOL'
+  m_text: 'Level 1: SCHOOL'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7362,36 +7362,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Moral_Support
   visitors:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  panel: {fileID: 0}
-  text: {fileID: 0}
+  - {fileID: 1007475030}
+  - {fileID: 329654198}
+  - {fileID: 673230985}
+  - {fileID: 1439384395}
+  panel: {fileID: 764363882}
+  text: {fileID: 449806858}
   wiggle_room: 0.001
   exponential_power: 1.97
   texts:
-  - Good luck,  my friend!
-  - Hey there, friend! Don't give up!
-  - Patience is a virtue.
-  - What's going on here?
-  - Is there a narrative to this game?
-  - HELPPPP!!! No I'm just playing around, I don't need any help.
-  - Today has been quite a day.
+  - BOO!
+  - How did you find me?
+  - Hi! I'm the dark blue tile!
+  - If something activates me, I wake up and talk!
+  - You should come to me after putting all the blocks in their appropriate spots.
+  - Nice job putting the blue car to its home!
+  - That towtruck is so interesting, isn't it?
   - Who am I? I'm the dark blue tile. I am here for moral support. GO TEAM GO!!
-  - How we doing. You doing alright?
-  - Gimme a P. P! Gimme a L. L! Gimme an... nah I'm too tired for this.
-  - I unfortunately can't help you very much :((
-  - Have you tried the tutorial yet? Highly recommend.
-  - Time is of the essence. Chop chop!!
-  - Each of the cars have such unique behaviors! Absolutely astounding.
-  - Who are you anyways, a police car?
-  - It looks like you have to move the cars. Why you gotta move the cars? What did
-    they do to you?
-  - Everybody seems to have a home except for that big, sturdy van. Maybe they already
-    home.
   activation_time: 1
 --- !u!114 &2050141042 stripped
 MonoBehaviour:
