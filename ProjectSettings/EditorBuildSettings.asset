@@ -15,7 +15,16 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelect.unity
     guid: e58f6020cc7e3714395421f10305cd19
   - enabled: 1
-    path: Assets/Scenes/Level0_Tutorial.unity
+    path: Assets/Scenes/Level_Van.unity
+    guid: 212664378009d734a9a6167bdd451184
+  - enabled: 1
+    path: Assets/Scenes/Level_Car.unity
+    guid: 3a338ca447bad6244ad7a2a649173a6d
+  - enabled: 1
+    path: Assets/Scenes/Level_Towtruck.unity
+    guid: 5d6410cd43ab31348b5e4c2fd736ad2c
+  - enabled: 1
+    path: Assets/Scenes/Level_Tutorial.unity
     guid: cb8ea21f430637b48a83a7e8a34ff981
   - enabled: 1
     path: Assets/Scenes/Level1_School.unity
